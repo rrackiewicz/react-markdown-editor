@@ -29,6 +29,7 @@ export default class Editor extends React.Component {
         onChange={this.handleChange}
         editorState={this.state.editorState}
         generateMarkdownPreview={this.markdownPreview}
+        layout='previewOnly'
       />
     );
   }
