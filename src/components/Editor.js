@@ -33,11 +33,7 @@ export default class Editor extends React.Component {
         onChange={this.handleChange}
         editorState={this.state.editorState}
         generateMarkdownPreview={this.markdownPreview}
-<<<<<<< HEAD
-        layout='previewOnly'
-=======
         layout='vertical'
->>>>>>> react-markdown-editor/master
       />
       <hr />
       <h5>Dangerously Set HTML:</h5>
